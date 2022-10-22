@@ -1,58 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/21304f3376.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./16_10__22_luminar_website.css">
-    <style>
-        body {
-            font-family: Raleway,sans-serif;
-            font-size: 14px;
-            color: #636b6f;
-            background-color: #f5f8fa;
-        }
-        .header-top {
-            background: #5e068a;
-            color: #ffffff;
-            font-size: 13px;
-            padding-bottom: 8px
-        }
-        .header-top a{
-            text-decoration: none;
-            background-color: transparent;
-            color: #ffffff;
-        }
-        .carousel-inner img{
-          height: 550px;
-          opacity: 0.9;
-        }
-        .button-default {
-          background: #5e068a none repeat scroll 0 0;
-           color: #ffffff;
-           display: inline-block;
-          font-size: 14px;
-          margin: 0;
-          padding: 15px 35px;
-          text-transform: uppercase;
-          font-family: 'Montserrat', sans-serif;
-          text-decoration: none;
-          border-radius: 50px;
-          font-weight: 600;
-        }
-        input{
-          box-shadow: none;
-          border: 0;
-          outline: none;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/21304f3376.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./16_10__22_luminar_website.css">
+  <style>
+    body {
+      font-family: Raleway, sans-serif;
+      font-size: 14px;
+      color: #636b6f;
+      background-color: #f5f8fa;
+    }
+
+    .header-top {
+      background: #5e068a;
+      color: #ffffff;
+      font-size: 13px;
+      padding-bottom: 8px
+    }
+
+    .header-top a {
+      text-decoration: none;
+      background-color: transparent;
+      color: #ffffff;
+    }
+
+    .carousel-inner img {
+      height: 550px;
+      opacity: 0.9;
+    }
+
+    .button-default {
+      background: #5e068a none repeat scroll 0 0;
+      color: #ffffff;
+      display: inline-block;
+      font-size: 14px;
+      margin: 0;
+      padding: 15px 35px;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 600;
+    }
+
+    input {
+      box-shadow: none;
+      border: 0;
+      outline: none;
+    }
+  </style>
 </head>
+
 <body>
   <header>
     <div class="header-top">
@@ -144,8 +154,8 @@
       </button>
     </div>
   </div>
-    
-  
+
+
 
   <!-- modal box -->
   <div class="new pt-4" style="display: flex; justify-content: center;">
@@ -156,13 +166,13 @@
     <!-- Modal -->
     <div class="modal fade modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
       aria-hidden="true">
-      <div class="modal-dialog" style="width: 700px;">
+      <div class="modal-dialog">
         <div class="modal-content ">
           <div class="modal-header border-0">
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
               style="margin-right: 10px;margin-top: 10px;"></button>
           </div>
-          <div class="modal-body p-2 w-75 container">
+          <div class="modal-body  w-75 container">
             <h1 class="fs-3 " id="exampleModalLabel" style="font-weight: 600;">Get Training Quote For Free</h1><br>
             <input type="text" name="name" placeholder="Name" required="" class="">
             <hr>
@@ -170,8 +180,7 @@
             <hr>
             <input type="email" name="phone-no" placeholder="Phone Number" required="">
             <hr>
-            <select name="current_status" required=""
-              style="box-shadow: none; border: 0; outline: none; width: 500px;">
+            <select name="current_status" required="" style="box-shadow: none;">
               <option selected="true" disabled="disabled">Select Course interested in</option>
               <option>Data Science - ML - AI - Big Data with Cloud &amp; Tableau</option>
               <option>Python Django - Angular- Full Stack Web Development Expert</option>
@@ -181,11 +190,10 @@
               <option>Android Developer Expert Training In Kochi- Flutter</option>
               <option>PYTHON -DATA SCIENCE with ML - AI - &amp; TABLEAU</option>
             </select>
-            <hr>
             <input type="text" name="city" placeholder="City">
             <hr>
             <textarea name="message" placeholder="Comments"
-              style="box-shadow: none; border: 0; outline: none; width: 500px;height: 100px; resize: none;"></textarea>
+              style="box-shadow: none; border: 0; outline: none;height: 100px; resize: none;border-width: 0 0 1px;width: 100%;"></textarea>
             <hr>
           </div>
           <div class="pt-3 pb-4 w-75 container">
@@ -218,11 +226,45 @@
           <a class="button-default" href="about">Learn More</a>
         </div>
         <div class="col-lg-6 col-sm-12 col-xs-12 pt-4">
-          <img src="./student-g582e978ab_1280.png" alt="" style="width: 55%; height: auto; position: relative; margin-left: 100px;">
+          <img src="./student-g582e978ab_1280.png" alt=""
+            style="width: 55%; height: auto; position: relative; margin-left: 100px;">
         </div>
       </div>
     </div>
-  </div><br><br>
+  </div>
+  <!-- our courses -->
+  <div class="header-sec" style="width: auto;height: 120px;padding-top: 60px;">
+    <h3>Our <span style="color: #9e6ab9;">Courses</span></h3>
+  </div>
+  <!-- single card -->
+  <div class="single_card" style="height: 350px;">
+    <div class="container w-75">
+      <div class="row" id="d">
+        <div class="col-lg-6 col-md-12" style="background-color:transparent;" id="a">
+          <img src="data-science-1588143159.jpg" alt=""
+            style="height: 350px;background-size: cover;background-repeat: no-repeat;width: 100%; height: 100%;">
+        </div>
+        <div class="col-lg-6 col-md-12" style="padding-top: 45px;" id="b">
+          <div class="second-col">
+            <a style="text-decoration:none;text-transform: uppercase;color: #5e068a;"
+              href="course-detail/data-science-training-kochi" class="stroke-btn">
+              <h3>Data Science - ML - AI - Big Data with Cloud &amp; Tableau</h3>
+            </a>
+            <div>
+              <p>Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts, Machine
+                Learning, Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud.</p>
+              <p><strong>📅 Next Batch : Jan 03<sup>rd</sup> 2022 (09:30 am - 11:30 am)</strong></p>
+              <p><strong>⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day&nbsp;</strong></p>
+              <p><strong>🧑‍🏫 Course Fees:<a href="course-detail/data-science-training-kochi" class="stroke-btn">View More</a></strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 3 cards -->
+  
 
 </body>
+
 </html>
